@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{cb664e75-0239-4d3e-bb49-5925668786f9}">
+		<property name="assetPath">
+			<value>gui/obj_complete.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{81dc2e2f-1fe8-4962-9976-ac27d7c0b961}</destination>
+		</relationship>
+	</object>
+</objects>
