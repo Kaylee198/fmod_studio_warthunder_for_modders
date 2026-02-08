@@ -67,7 +67,7 @@
 	<object class="MarkerTrack" id="{80d29d17-a497-4b52-84e2-77682eacf5bc}" />
 	<object class="GroupTrack" id="{1ccc7e69-f276-4834-86d4-ca18afd8d8c3}">
 		<relationship name="modules">
-			<destination>{bcf33a18-6fee-4126-92b0-9d03d327e279}</destination>
+			<destination>{cfa435d4-282b-4332-9821-48983c365cf0}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{29f5dba7-fb78-44cd-bdeb-e79bce083413}</destination>
@@ -75,7 +75,7 @@
 	</object>
 	<object class="Timeline" id="{cfe5471c-9dca-4837-a786-3be028628b79}">
 		<relationship name="modules">
-			<destination>{bcf33a18-6fee-4126-92b0-9d03d327e279}</destination>
+			<destination>{cfa435d4-282b-4332-9821-48983c365cf0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{51a8f2fd-f5a9-49b4-8ec5-8e0d1c0ebc02}">
@@ -95,26 +95,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b96b20a0-d780-442e-89c6-9faefc1608bc}" />
-	<object class="SingleSound" id="{bcf33a18-6fee-4126-92b0-9d03d327e279}">
-		<property name="triggerProbabilityEnabled">
+	<object class="SingleSound" id="{cfa435d4-282b-4332-9821-48983c365cf0}">
+		<property name="isAsync">
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>3.1853968253968254</value>
+			<value>0.75755102040816324</value>
 		</property>
-		<property name="voiceStealing">
-			<value>3</value>
-		</property>
-		<property name="name">
-			<value>/gui/enemy_destroyed</value>
+		<property name="timelockedOffset">
+			<value>0.61755102040816312</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{97dcca65-10a2-4077-a36e-a7ac25cf8cc8}</destination>
+			<destination>{e90a8b07-d752-4b32-9fa4-c4520328e191}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{29f5dba7-fb78-44cd-bdeb-e79bce083413}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-11</value>
 		</property>
 		<property name="name">
 			<value>layer00</value>
